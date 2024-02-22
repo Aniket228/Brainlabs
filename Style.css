@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55vw;
+    height: 100vh;
+  }
+  
+  .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 45vw;
+    background-color: #006751
+  }
+  
+  .pic{
+    height: 100vh;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 22vh;
+    left: 120px;
+  }
+
+  #button{
+    background-color: #a22b06;
+    color: white;
+    padding: 12px 7px;
+  }
+
+  #button1{
+    color: #006751;
+    background-color: #b6bf00;
+    padding: 12px 9px;
+  }
+
+  #button2{
+    color: #006751;
+    background-color: #b6bf00;
+    padding: 12px 9px;
+  }
+  
+  #gridCheck{
+    width: 20px; 
+    height: 20px;
+  }
+
+
+  #ddwidth{
+    width: 500px;
+    height: 35px;
+    color:gray
+  }
+
+  input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+  }
+
+  .input-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+  }
+    
+  .input-control input:focus {
+     outline: 0;
+  }
+    
+  .input-control.success input {
+    border-color: #09c372;
+  }
+    
+  .input-control.error input {
+    border-color: #ff3860;
+  }
+    
+  .input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+  }
